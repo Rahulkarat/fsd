@@ -1,0 +1,12 @@
+let frts=["a","b",1];
+frts.pop();
+console.log(frts);
+frts.push("2");
+console.log(frts);
+frts.push("2");
+console.log(frts[0]);
+frts.shift();
+console.log(frts);
+frts.unshift("a");
+console.log(frts);
+console.log(frts.length);
